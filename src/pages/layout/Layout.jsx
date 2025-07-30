@@ -5,13 +5,13 @@ import { Outlet } from 'react-router-dom'
 
 const Layout = () => {
   return (
-    <div>
+    <>
         <Header/>
         <main className='min-h-[70vh]'>
             <Outlet/>     
         </main>
         <Footer/>
-    </div>
+    </>
   )
 }
 
